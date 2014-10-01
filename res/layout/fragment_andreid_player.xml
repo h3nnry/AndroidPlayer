@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<ImageView 
+	    android:src="@drawable/ivan"
+	    android:contentDescription="@string/andreidplayer_description"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1" >
+    </ImageView>
+	<TableRow 
+	    android:gravity="center|bottom"
+	    android:layout_weight="0">
+		<Button 
+		    android:id="@+id/andreidplayer_playButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/andreidplayer_play"/>
+		<Button 
+		    android:id="@+id/andreidplayer_stopButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/andreidplayer_stop"/>
+	</TableRow>
+</TableLayout>
