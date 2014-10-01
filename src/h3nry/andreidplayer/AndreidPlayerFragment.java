@@ -11,6 +11,7 @@ public class AndreidPlayerFragment extends Fragment{
 	private AudioPlayer mPlayer = new AudioPlayer();
 	private Button mPlayButton;
 	private Button mStopButton;
+	private Button mPauseButton;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
@@ -34,6 +35,16 @@ public class AndreidPlayerFragment extends Fragment{
 				
 			}
 		});
+		mPauseButton = (Button)v.findViewById(R.id.andreidplayer_pauseButton);
+		mPauseButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				mPlayer.pause(getActivity());
+				
+			}
+		});
+		
 		
 		return v;
 	}

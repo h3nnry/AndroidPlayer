@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 
 public class AudioPlayer {
 	private MediaPlayer mPlayer;
+	private int length;
 	
 	public void stop() {
 		if(mPlayer != null) {
@@ -27,5 +28,16 @@ public class AudioPlayer {
 			}
 		});
 		mPlayer.start();
+	}
+	
+	public void pause(Context c) {
+		if(mPlayer.isPlaying()) {
+			mPlayer.pause();
+			length = mPlayer.getCurrentPosition();
+		}
+		else {
+			mPlayer.seekTo(length);
+			mPlayer.start();
+		}
 	}
 }

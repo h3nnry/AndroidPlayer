@@ -6,6 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="andreidplayer_play">Play</string>
     <string name="andreidplayer_stop">Stop</string>
+    <string name="andreidplayer_pause">Pause</string>
     <string name="andreidplayer_description">Ivan Dorn</string>
 
 </resources>

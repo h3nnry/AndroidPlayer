@@ -1092,12 +1092,13 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06003f;
+        public static final int action_settings=0x7f060040;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int andreidPlayerFragment=0x7f06003c;
+        public static final int andreidplayer_pauseButton=0x7f06003e;
         public static final int andreidplayer_playButton=0x7f06003d;
-        public static final int andreidplayer_stopButton=0x7f06003e;
+        public static final int andreidplayer_stopButton=0x7f06003f;
         public static final int beginning=0x7f060011;
         public static final int checkbox=0x7f06002d;
         public static final int collapseActionView=0x7f06000d;
@@ -1249,7 +1250,8 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static final int action_settings=0x7f0b000f;
-        public static final int andreidplayer_description=0x7f0b0012;
+        public static final int andreidplayer_description=0x7f0b0013;
+        public static final int andreidplayer_pause=0x7f0b0012;
         public static final int andreidplayer_play=0x7f0b0010;
         public static final int andreidplayer_stop=0x7f0b0011;
         public static final int app_name=0x7f0b000d;
