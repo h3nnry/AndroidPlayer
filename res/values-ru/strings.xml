@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndreidPlayer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="andreidplayer_play">Плэй</string>
+    <string name="andreidplayer_stop">Стоп</string>
+    <string name="andreidplayer_pause">Пауза</string>
+    <string name="andreidplayer_description">Иван Дорн</string>
+
+</resources>

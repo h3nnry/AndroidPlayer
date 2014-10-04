@@ -14,6 +14,12 @@ public class AndreidPlayerFragment extends Fragment{
 	private Button mPauseButton;
 	
 	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setRetainInstance(true);
+	}
+	
+	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.fragment_andreid_player, parent, false);
 		
